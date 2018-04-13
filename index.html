@@ -5,43 +5,56 @@
 	<title>Random Quotes Generator</title>
 	<!-- FONTS -->
 	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 	<!-- /FONTS -->
 	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
+	<!-- BODY -->
+	<div id="myWindow">
+		<h2 id="authorName"></h2>
+
+		<div id="quoteHolder">
+			<span id="quoteText"></span>
+		</div>
+
+		<a id="getQuoteBtn" href="#">I want more!</a>
+		<a id="mainMenuBtn" href="#">Show menu</a>
+	</div>
+	<!-- /BODY -->
+
+
 
 	<!-- MAIN MENU -->
-	<a id="mainMenuBtn" href="#">Show menu</a>
-
 	<ul class="menu" id="mainMenu">
-		<li class="one">
+		<li class="one" id="one">
 			<a href="#">
 				<img class="icon" src="icons/Steve_Jobs.svg">
 			</a>
 		</li>
-		<li class="two">
+		<li class="two" id="two">
 			<a href="#">
 				<img class="icon" src="icons/Abraham_Lincoln.svg">
 			</a>
 		</li>
-		<li class="three">
+		<li class="three" id="three">
 			<a href="#">
 				<img class="icon" src="icons/Bruce_Lee.svg">
 			</a>
 		</li>
-		<li class="four">
+		<li class="four" id="four">
 			<a href="#">
-				<img class="icon" src="icons/Charlie_Chaplin.svg">
+				<img class="icon" src="icons/Friedrich_Nietzsche.svg">
 			</a>
 		</li>
-		<li class="five">
+		<li class="five" id="five">
 			<a href="#">
-				<img class="icon" src="icons/Mahatma Gandhi.svg">
+				<img class="icon" src="icons/Mahatma_Gandhi.svg">
 			</a>
 		</li>
-		<li class="six">
+		<li class="six" id="six">
 			<a href="#">
-				<img class="icon" src="icons/Edward_Kennedy.svg">
+				<img class="icon" src="icons/John_Kennedy.svg">
 			</a>
 		</li>
 	</ul>
@@ -55,7 +68,8 @@
 	</svg>
 	<!-- /MAIN MENU -->
 	
-	<script type="text/javascript" src="main.js"></script>
+	<script type="text/javascript" src="js/cites.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 	<script>/*eslint-disable*/document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>  <!-- auto reload -->
 </body>
 </html>

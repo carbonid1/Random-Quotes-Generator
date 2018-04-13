@@ -1,10 +1,48 @@
+* {box-sizing: border-box; padding: 0; margin: 0;}
+
+#myWindow {
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+
+    position: relative;
+
+    display: none;
+    flex-direction: column;
+
+    width: 80%;
+    margin: 5% auto auto auto;
+    min-height: 300px;
+
+    border: solid 4px #63B3C9;
+    background: linear-gradient(to bottom, rgba(235,241,246,1) 8%,rgba(171,211,238,1) 36%,rgba(137,195,235,1) 69%,rgba(213,235,251,1) 94%);
+
+    align-items: center;
+    justify-content: space-around;
+}
+
+#authorName {
+  margin-top: 20px;
+  font-size: 23px;
+}
+
+#quoteHolder {
+    width: calc(100% - 10rem);
+    min-height: 200px;
+    margin-top: 40px;
+    text-align: center;
+}
+
 #mainMenuBtn {
     font-family: Indie Flower, cursive;
-    font-size: 19px;
+    font-size: 17px;
     font-weight: bold;
     line-height: 100px;
 
-    display: none;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+
+    display: block;
 
     width: 100px;
     height: 100px;
@@ -16,10 +54,41 @@
 
     color: white;
     border-radius: 50%;
-    background-color: red;
+    background: linear-gradient(to bottom, rgba(242,130,91,1) 0%,rgba(229,91,43,1) 50%,rgba(240,113,70,1) 100%);
+    border: 2px solid #000;
+}
+#mainMenuBtn:hover {
+  background: linear-gradient(to bottom, rgba(249,198,103,1) 0%,rgba(247,150,33,1) 100%);
+}
+
+#getQuoteBtn {
+    font-family: Indie Flower, cursive;
+    font-weight: bold;
+    line-height: 22px;
+
+    display: block;
+
+    width: 20%;
+    min-width: 150px;
+    height: 30px;
+    margin: 40px 0;
+
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+
+    border: solid 4px #52bab3;
+    color: #000;
+    background: #adede7;
+}
+
+#getQuoteBtn:hover {
+  background: #52BAB3;
+  color: #fff;
 }
 
 
+/* -----------MAIN MENU------------ */
 .menu {
   position: relative;
   list-style: none;
@@ -99,3 +168,4 @@
           transform: rotate(60deg);
 }
 
+/* /----------------MAIN MENU-------------- */
