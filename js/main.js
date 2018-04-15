@@ -5,12 +5,14 @@ const authorName = document.getElementById("authorName");
 const quoteText = document.getElementById("quoteText");
 const mainMenuBtn = document.getElementById("mainMenuBtn");
 const getQuoteBtn = document.getElementById("getQuoteBtn");
+const tweetQuote = document.getElementById("tweetQuote");
 const one = document.getElementById("one");
 const two = document.getElementById("two");
 const three = document.getElementById("three");
 const four = document.getElementById("four");
 const five = document.getElementById("five");
 const six = document.getElementById("six");
+
 
 function appendName(name) {
   authorName.textContent = name;
@@ -41,6 +43,10 @@ function fadeIn(el) {
   tick();
 }
 
+function setTweet() {
+  tweetQuote.setAttribute("href", "https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=" + encodeURIComponent(quoteText.textContent) + " " + encodeURIComponent(authorName.textContent));
+}
+
 mainMenuBtn.addEventListener("click", () => {
   mainMenu.style.display = "block";
   myWindow.style.display = "none";
@@ -51,6 +57,7 @@ getQuoteBtn.addEventListener("click", () => {
   const arr = citesObj[name];
   appendQuote(arr[randomInteger(arr.length - 1)]);
   fadeIn(quoteText);
+  setTweet();
 });
 
 // ---------MENU EVENT LISTENER
@@ -60,6 +67,7 @@ one.addEventListener("click", () => {
   appendName("Steve Jobs");
   const arr = citesObj["Steve Jobs"];
   appendQuote(arr[randomInteger(arr.length - 1)]);
+  setTweet();
 });
 
 two.addEventListener("click", () => {
@@ -68,6 +76,7 @@ two.addEventListener("click", () => {
   appendName("Abraham Lincoln");
   const arr = citesObj["Abraham Lincoln"];
   appendQuote(arr[randomInteger(arr.length - 1)]);
+  setTweet();
 });
 
 three.addEventListener("click", () => {
@@ -76,6 +85,7 @@ three.addEventListener("click", () => {
   appendName("Bruce Lee");
   const arr = citesObj["Bruce Lee"];
   appendQuote(arr[randomInteger(arr.length - 1)]);
+  setTweet();
 });
 
 four.addEventListener("click", () => {
@@ -84,6 +94,7 @@ four.addEventListener("click", () => {
   appendName("Friedrich Nietzsche");
   const arr = citesObj["Friedrich Nietzsche"];
   appendQuote(arr[randomInteger(arr.length - 1)]);
+  setTweet();
 });
 
 five.addEventListener("click", () => {
@@ -92,6 +103,7 @@ five.addEventListener("click", () => {
   appendName("Mahatma Gandhi");
   const arr = citesObj["Mahatma Gandhi"];
   appendQuote(arr[randomInteger(arr.length - 1)]);
+  setTweet();
 });
 
 six.addEventListener("click", () => {
@@ -100,5 +112,7 @@ six.addEventListener("click", () => {
   appendName("John Kennedy");
   const arr = citesObj["John Kennedy"];
   appendQuote(arr[randomInteger(arr.length - 1)]);
+  setTweet();
 });
 // ---------/MENU EVENT LISTENER
+

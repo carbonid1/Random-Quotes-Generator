@@ -1,5 +1,20 @@
 * {box-sizing: border-box; padding: 0; margin: 0;}
 
+#tweetQuote {
+    display: block;
+    width: 55px;
+    height: 55px;
+    background: url("icons/Twitter.svg") no-repeat center;
+    background-size: cover;
+	position: absolute;
+	right: 5%;
+	bottom: 5%;
+ }
+
+ #tweetQuote:hover {
+	opacity: 0.5;
+ }
+
 #myWindow {
     font-family: 'Roboto Slab', serif;
     font-size: 18px;
