@@ -1,5 +1,5 @@
 const citesObj = {
-  Steve_Jobs: [
+  "Steve Jobs": [
     "Do you want to spend the rest of your life selling sugared water or do you want a chance to change the world?",
     "It's more fun to be a pirate than to join the Navy.",
     "Being the richest man in the cemetery doesn't matter to me … Going to bed at night saying we've done something wonderful... that's what matters to me.",
@@ -14,7 +14,7 @@ const citesObj = {
     "You always have to keep pushing to innovate. Dylan could have sung protest songs forever and probably made a lot of money, but he didn’t. He had to move on, and when he did, by going electric in 1965, he alienated a lot of people. His 1966 Europe tour was his greatest…. The Beatles were the same way. They kept evolving, moving, refining their art. That’s what I’ve always tried to do — keep moving. Otherwise, as Dylan says, if you are not busy being born, you’re busy dying.",
   ],
 
-  Abraham_Lincoln: [
+  "Abraham Lincoln": [
     "Determine that the thing can and shall be done, and then we shall find the way.",
     "The better part of one's life consists of his friendships.",
     "Those who deny freedom to others, deserve it not for themselves; and, under a just God, can not long retain it.",
@@ -24,7 +24,7 @@ const citesObj = {
     "I don't believe in a law to prevent a man from getting rich; it would do more harm than good. So while we do not propose any war upon capital, we do wish to allow the humblest man an equal chance to get rich with everybody else. When one starts poor, as most do in the race of life, free society is such that he knows he can better his condition; he knows that there is no fixed condition of labor, for his whole life.",
   ],
 
-  Bruce_Lee: [
+  "Bruce Lee": [
     "All types of knowledge, ultimately mean self knowledge.",
     "Boards don't hit back.",
     "There are no limits. There are plateaus, but you must not stay there, you must go beyond them. If it kills you, it kills you. A man must constantly exceed his level.",
@@ -34,7 +34,7 @@ const citesObj = {
     "Walk on.",
   ],
 
-  Friedrich_Nietzscge: [
+  "Friedrich Nietzsche": [
     "It is precisely facts that do not exist, only interpretations.",
     "Art is the supreme task and the truly metaphysical activity in this life...",
     "Underneath this reality in which we live and have our being, another and altogether different reality lies concealed...",
@@ -46,7 +46,7 @@ const citesObj = {
     "Without music, life would be a mistake.",
   ],
 
-  Mahatma_Gandhi: [
+  "Mahatma Gandhi": [
     "Victory attained by violence is tantamount to a defeat, for it is momentary.",
     "The weak can never forgive. Forgiveness is the attribute of the strong.",
     "One of the objects of a newspaper is to understand popular feeling and to give expression to it; another is to arouse among the people certain desirable sentiments; and the third is fearlessly to expose popular defects.",
@@ -56,7 +56,7 @@ const citesObj = {
     "Nonviolence is the first article of my faith. It is also the last article of my creed.",
   ],
 
-  John_Kennedy: [
+  "John Kennedy": [
     "The great revolution in the history of man, past, present and future, is the revolution of those determined to be free.",
     "Those who make peaceful revolution impossible will make violent revolution inevitable.",
     "In the Chinese language, the word 'crisis' is composed of two characters, one representing danger and the other, opportunity.",
